@@ -6,6 +6,8 @@ a genome that determines their preferences of movement.
 Red color means cell likes to be alone, blue means cell
 likes to be in a big company, grean means cell likes to be
 near 2 or 3 cells. Also cells can mutate with 1/100 chance.
+Idea taken from [this](https://habrahabr.ru/post/154015/) post
+
 
 #Requierments
 [Python3](www.python.org)
@@ -15,3 +17,4 @@ near 2 or 3 cells. Also cells can mutate with 1/100 chance.
 By double-click or by a comand:
   `python gol.py %width% %height%`
   width and height are optional, default is 600, 400
+  
